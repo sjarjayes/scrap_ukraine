@@ -10,20 +10,22 @@
 
 # In[ ]:
 
-
-#!pip install emojis
-
-
-# In[ ]:
+!pip install snscrape
 
 
-#!pip install yellowbrick
+!pip install emojis
 
 
 # In[ ]:
 
 
-#!pip install pyLDAvis
+!pip install yellowbrick
+
+
+# In[ ]:
+
+
+!pip install pyLDAvis
 
 
 # In[ ]:
