@@ -8,24 +8,6 @@
 # * https://mihaelagrigore.medium.com/scraping-historical-tweets-without-a-twitter-developer-account-79a2c61f76ab
 # * https://github.com/JustAnotherArchivist/snscrape
 
-# In[ ]:
-
-!pip install snscrape
-
-
-!pip install emojis
-
-
-# In[ ]:
-
-
-!pip install yellowbrick
-
-
-# In[ ]:
-
-
-!pip install pyLDAvis
 
 
 # In[ ]:
@@ -1332,14 +1314,14 @@ tweets_lda.show_topics()
 # In[ ]:
 
 
-gensimvis.prepare(tweets_lda, tweets_bow, dictionary)
+#gensimvis.prepare(tweets_lda, tweets_bow, dictionary)
 
 
 # In[ ]:
 
 
 # Compute Coherence Score
-coherence_model_lda = CoherenceModel(model=tweets_lda, texts=df_non_null['stem_tokens'], dictionary=dictionary, coherence='c_v')
-coherence_lda = coherence_model_lda.get_coherence()
+#coherence_model_lda = CoherenceModel(model=tweets_lda, texts=df_non_null['stem_tokens'], dictionary=dictionary, coherence='c_v')
+#coherence_lda = coherence_model_lda.get_coherence()
 print('\nCoherence Score: ', coherence_lda)
 
