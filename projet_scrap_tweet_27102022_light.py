@@ -24,7 +24,7 @@ import csv
 
 import uuid
 
-from IPython.display import display_javascript, display_html, display
+#from IPython.display import display_javascript, display_html, display
 
 import pandas as pd
 import numpy as np
